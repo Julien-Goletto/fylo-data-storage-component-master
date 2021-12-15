@@ -11,24 +11,24 @@
 </head>
 <body>
   <main>
-    <section class="menu">
-      <h1 class="menu__logo">Fylo</h1>
+    <section class="container menu">
+      <div class="menu__logo"></div>
       <div class="menu__icon-container">
-        <img alt="file icon" src="../images/icon-document.svg" class="menu__icon">
-        <img alt="folder icon" src="../images/icon-folder.svg" class="menu__icon">
-        <img alt="upload icon" src="../images/icon-upload.svg" class="menu__icon">
+        <div class="menu__icon menu__icon--file"></div>
+        <div class="menu__icon menu__icon--folder"></div>
+        <div class="menu__icon menu__icon--upload"></div>
       </div>
     </section>
-    <section class="storage-state">
-      <p class="storage-state__text">You’ve used 815 GB of your storage</p>
+    <section class="container storage-state">
+      <p class="storage-state__text">You’ve used <strong>815 GB</strong> of your storage</p>
       <div class="storage-state__gauge">
         <div class="gauge__empty"></div>
         <div class="gauge__occupied"></div>
         <div class="gauge__cursor"></div>
       </div>
       <div class="storage-state__legends">
-        <p class="legends__0GB">0 GB</p>
-        <P class="legends__max">1000 GB</P>
+        <p class="legends__0GB"><strong>0 GB</strong></p>
+        <P class="legends__max"><strong>1000 GB</strong></P>
       </div>
       <div class="storage-state__left-space">
         <span class="left-space__number">185</span>
